@@ -18,5 +18,16 @@ public class App {
         }
         // luodaan taulukko johon syötetään arvot loopin avulla
         // luodaan myös valmiiksi käyttäjän syöte muuttujat
-        
+       
+        for (int i = 0 ; i < 5 ; i++)
+        {
+            for (int j = 0 ; j < 5 ; j++)
+            {
+                System.out.print(laivanUpotus[i][j] + " ");
+            }
+        System.out.println();
+        }
+        // tulostetaan taulukko
+
+             
     
